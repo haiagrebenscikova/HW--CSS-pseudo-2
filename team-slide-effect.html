@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Slide Effect Team Members</title>
+    <style>
+        body{background-color: #222;
+        margin: 0;
+        font-family: arial;   }
+        .our-team{background-color: #444;
+        margin-top: 100px;
+        padding: 20px;}
+        .our-team-title{color: white;
+        text-align: center;}
+        ul{list-style: none;
+        padding: 0;}
+        .avatar{width: 300px; transition: 1s;}
+        .wrapper{background-color: #666;
+        border-radius: 300px;width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow:hidden; height: 300px;}
+        .profile{ text-align: center;}
+        ol{list-style: none;}
+        .avatar:hover{margin-top: -300px;}
+        .name{color:turquoise;}
+        .name:hover{color: red;transition: 1s;}
+        .position{color:turquoise;}
+        .position:hover{color: red;transition: 1s;}
+    </style>
+</head>
+<body>
+    <section class="our-team">
+        <h1 class="our-team-title">Our team</h1>
+        <ul>
+            <li class="profile">
+                <div class="wrapper">
+                    <!--<figure>---</figure>-->
+                    <img class="avatar" src="avatar1.png" alt="images">
+                        <h3>Personal Skills</h3>
+                            <ol>
+                                <li>Communication skills. </li>
+                                <li>Dedication and enthusiasm.</li>
+                                <li>Interpersonal skills and respectfulness.</li>
+                            </ol>
+                        </div>
+                        <h2 class="name"> John Smith</h2>
+                    <p class="position">Team Lead</p>
+            </li>
+        </ul>
+    </section>
+    
+</body>
+</html>
